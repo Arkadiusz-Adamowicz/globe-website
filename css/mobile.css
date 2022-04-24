@@ -72,6 +72,10 @@ text-align: center;
 display: none;
 }
 
+#footer {
+  height: 20px;
+}
+
 #footer p {
   font-size: 0.8rem;
 }
