@@ -1,4 +1,8 @@
 /* Navbar */
+#navbar {
+  height: 80px;  
+}
+
 #navbar .container {
   display: block;
   text-align: center;
