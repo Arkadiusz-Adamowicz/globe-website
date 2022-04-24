@@ -9,11 +9,12 @@
   <title>TheGlobe</title>
 </head>
 <body>
+
   <!-- Navbar -->
     <nav id="navbar">
       <div class="container">
         <h1 class="logo"><span class="text-primary">      
-          <i class="fas fa-globe fa-spin"></i> The</span>Globe</h1>
+          </span>Gl<i class="fas fa-earth-americas text-primary"></i>be</h1>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#categories">Categories</a></li>
@@ -25,11 +26,11 @@
   <!-- Header: Showcase -->
     <header id="showcase">
       <div class="showcase-content">
-        <h1 class="l-heading">Welcome To The<span class="text-secondary" >Globe</span></h1>
-          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aspernatur alias consequatur fugit veritatis deserunt.</p>
+        <h1 class="l-heading">Welcome To The <span class="text-secondary">Gl<i class="fa-solid fa-earth-americas fa-spin text-primary" style="--fa-animation-duration: 3s;"></i>be</span></h1>
+          <p class="lead py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta molestias rerum suscipit atque qui quam libero nihil laudantium nam!</p>
       </div>
     </header>
-  
+    
   <!-- Section: Categories -->
     <section id="categories">
       <div class="categories container text-center">
@@ -52,16 +53,39 @@
       </div>
 
     </section>
-
-  <!-- Contact -->
-    <section id="contact">
-
+    <!-- Contact -->
+    <section id="contact">        
+      </div>    
+      <div class="contact-form">
+        <h1 class="m-heading text-center">Contact<span class="text-secondary"> Us</span></h1> 
+        <p class="lead">Fill below form to contact us</p>
+        <form>
+            <div class="contact-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name">
+            </div>
+            <div class="contact-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div class="contact-group">
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" id="phone">
+            </div>
+            <div class="contact-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" style="resize:none"></textarea>
+              <br>
+            <input type="submit" class="btn" value="Send">
+          </div>
+        </form>
+      </div>
+      <div class="contact-img">      
     </section>
 
   <!-- Footer -->
   <footer id="footer">
-
-
+      <p class="bg-primary lead text-center py-1">Copyright &copy; 2022, All Rights Reserved</p>
   </footer>
 </body>
 </html>
