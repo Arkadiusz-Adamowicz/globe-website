@@ -41,13 +41,13 @@
 }
 
 #categories .container {
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
 .category {
   background: #2c7c09;
-  width: 400px;
-  height: 200px;
+  width: 500px;
+  height: 180px;
   padding: 1rem;
   margin: 1rem;
   border-radius: 20px;
@@ -62,6 +62,7 @@
 #contact .contact-form {
 flex: 1;
 padding: 1rem 1rem;
+margin: -100px 0;
 }
 
 #contact .contact-form p {
