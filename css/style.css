@@ -161,7 +161,7 @@ li {
 .contact-form {
   height: 100%;
   background-color: #000;
-  padding-right: 0;
+  padding: 10px 0px 10px 200px ;
 }
 
 #contact .contact-form p {
