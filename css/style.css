@@ -136,7 +136,7 @@ li {
 
 #categories {
   background: #000;  
-  height: 300px; 
+  height: 350px; 
 }
 
 .category {
@@ -194,6 +194,7 @@ li {
 #contact .contact-img {
   flex: 1;
   background: #2c7c09 url("../img/contact.jpg") no-repeat center center/cover;
+  padding-right: 0;
 }
 
 .btn {
