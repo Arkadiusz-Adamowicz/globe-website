@@ -67,7 +67,8 @@
 /* Contact */
 #contact .contact-form {
 flex: 1;
-padding: 0;
+padding: 10px 0;
+width: 100%;
 }
 
 #contact .contact-form p {
