@@ -167,6 +167,7 @@ li {
 
 .contact-form {
  height: 100%; 
+ padding: 20px 0;
 }
 
 #contact .contact-form p {
@@ -195,9 +196,7 @@ li {
 }
 
 #contact .contact-img {
-  flex: 1;
   background: #2c7c09 url("../img/contact.jpg") no-repeat center center/cover;
-  padding: 10px 0;
   background-size: cover;
 }
 
