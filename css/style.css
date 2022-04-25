@@ -260,6 +260,7 @@ li {
   text-align: justify;
   font-size: 0.7rem;
   font-style: italic;
+  line-height: 1.6rem;
 }
 
 #team .container .card img {
@@ -280,6 +281,10 @@ li {
   display: flex;
   justify-content:center;
   align-items: center;
+}
+
+#footer .container p {
+  font-size: 0.8rem;
 }
 
 @keyframes slideFromTop {
