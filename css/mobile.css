@@ -42,12 +42,14 @@
 /* Categories */
 #categories {
   background: #000;  
-  height: 850px; 
+  height: 100%; 
+  
 }
 
 #categories .container {
   flex-wrap: wrap;
   position: relative;
+  
 }
 
 .category {
@@ -56,17 +58,28 @@
   height: 90%;
   margin: 0.6rem;
   border-radius: 20px;
-  transition: transform 0.2s ease-in;
+  transition: none;
 }
 
 .category:hover {
-  transform: translateY(10px);
+  /* transform: translateY(10px); */
+  transform: none;
 }
 
 /* Team */
-#team .container {
-  display: block; 
+#team {
+  height: 800px;
 }
+
+#team .container {
+  display: block;
+  height: 100%;
+}
+
+#team .container .card:nth-child(5) {
+ display: none;
+}
+
 
 /* Contact */
 #contact .contact-form {
@@ -80,10 +93,6 @@ text-align: center;
 
 #contact .contact-img {
 display: none;
-}
-
-#footer {
-  height: 20px;
 }
 
 #footer p {
