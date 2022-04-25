@@ -47,7 +47,7 @@
 
 #categories .container {
   flex-wrap: wrap;
-  position: absolute;
+  position: relative;
 }
 
 .category {
