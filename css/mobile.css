@@ -52,8 +52,8 @@
 
 .category {
   background: #2c7c09;
-  width: 480px;
-  height: 180px;
+  width: 90%;
+  height: 90%;
   margin: 0.6rem;
   border-radius: 20px;
   transition: transform 0.2s ease-in;
@@ -63,11 +63,15 @@
   transform: translateY(10px);
 }
 
+/* Team */
+#team .container {
+  display: block; 
+}
+
 /* Contact */
 #contact .contact-form {
 flex: 1;
-width: 100%;
-padding: 20px 10px;
+padding: 0 30px;
 }
 
 #contact .contact-form p {
