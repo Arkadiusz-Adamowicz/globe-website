@@ -23,7 +23,7 @@
 }
 
 #showcase .showcase-content {
-  top:140px;  
+  top:160px;  
 }
 
 #showcase .showcase-content p {
@@ -35,7 +35,7 @@
 #showcase .showcase-content h1 {
   font-size: 3rem;
   padding: 0 2rem; 
-  margin-top: -5rem; 
+  margin-top: -8rem; 
 }
 
 /* Categories */
