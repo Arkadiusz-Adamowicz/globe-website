@@ -23,11 +23,12 @@
 }
 
 #showcase .showcase-content {
-  top:80px;  
+ height: 100%;
+ margin-top: 120px;
 }
 
 #showcase .showcase-content p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-top: 1rem;
   padding: 0 2rem;
 }
@@ -35,25 +36,25 @@
 #showcase .showcase-content h1 {
   font-size: 3rem;
   padding: 0 2rem; 
-  margin-top: -5rem; 
+  margin-top: -300px;
 }
 
 /* Categories */
 #categories {
   background: #000;  
-  height: 950px; 
+  height: 850px; 
 }
 
 #categories .container {
   flex-wrap: wrap;
+  position: relative;
 }
 
 .category {
   background: #2c7c09;
-  width: 500px;
-  height: 200px;
-  padding: 1rem;
-  margin: 1rem;
+  width: 480px;
+  height: 180px;
+  margin: 0.6rem;
   border-radius: 20px;
   transition: transform 0.2s ease-in;
 }
@@ -65,7 +66,8 @@
 /* Contact */
 #contact .contact-form {
 flex: 1;
-padding: 1rem 1rem;
+width: 100%;
+padding: 20px 10px;
 }
 
 #contact .contact-form p {
@@ -83,4 +85,3 @@ display: none;
 #footer p {
   font-size: 0.8rem;
 }
-
