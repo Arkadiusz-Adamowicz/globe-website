@@ -160,7 +160,7 @@ li {
 
 #contact .container {
   display: flex;
-  padding: 20px 0;
+  padding-bottom: 30px;
 }
 
 .contact-form {
