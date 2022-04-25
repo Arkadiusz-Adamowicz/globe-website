@@ -195,7 +195,12 @@ li {
   flex: 1;
   background: #2c7c09 url("../img/contact.jpg") no-repeat center center/cover;
   padding: 10px 0;
-  background-size: auto;
+  background-size: cover;
+}
+
+#contact .box {
+  flex: 2;
+  background: red;
 }
 
 .btn {
