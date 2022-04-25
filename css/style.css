@@ -155,13 +155,18 @@ li {
 
 /* Contact */
 #contact {
-  display: flex;
+  display;
   background: #000;
 }
 
+#contact .container {
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+
 .contact-form {
- height: 100%;
- flex: 1; 
+ height: 100%; 
 }
 
 #contact .contact-form p {
