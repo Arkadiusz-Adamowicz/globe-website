@@ -138,17 +138,20 @@ li {
 }
 
 /* Categories */
-
 #categories {
-  background: #000;  
+  background: #000;
 }
 
-.category {
+#categories .container {
+  display: flex;  
+}
+
+#categories .container .category {
   background: #2c7c09;
-  width: 300px;
+  width: 350px;
   height: 250px;
-  padding: 1rem;
   margin: 1rem;
+  padding: 1rem;
   border-radius: 20px;
   transition: all .2s ease-in-out;
   /* transition: transform 0.2s ease-in; */

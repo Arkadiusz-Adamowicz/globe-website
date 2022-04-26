@@ -52,7 +52,7 @@
   
 }
 
-.category {
+#categories .container .category {
   background: #f4f4f4;
   width: 90%;
   height: 90%;
