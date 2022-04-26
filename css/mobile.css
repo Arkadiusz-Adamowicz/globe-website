@@ -52,7 +52,7 @@
 
 #categories .container .category {
   background: #f4f4f4;
-  width: 90%;
+  width: 95%;
   height: 90%;
   margin: 0.6rem;
   border-radius: 20px;
@@ -97,11 +97,11 @@
 /* Contact */
 #contact .contact-form {
 flex: 1;
-padding: 0 30px;
+padding: 0 20px;
 }
 
 #contact .contact-form p {
-text-align: center;
+text-align: left;
 }
 
 #contact .contact-img {
