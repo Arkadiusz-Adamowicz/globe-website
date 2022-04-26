@@ -42,14 +42,12 @@
 /* Categories */
 #categories {
   background: #000;  
-  height: 100%; 
-  
+  height: 100%;   
 }
 
 #categories .container {
   flex-wrap: wrap;
-  position: relative;
-  
+  position: relative;  
 }
 
 #categories .container .category {
@@ -76,6 +74,10 @@
 }
 
 /* Team */
+#categories .banner {
+  display: none;
+}
+
 #team {
   height: 100%;
 }
