@@ -202,9 +202,12 @@ li {
   text-align: center;
   align-items: center;
   justify-content: center;
-  border-bottm: 2x solid #fff;
   height: 100%;  
   color: #f4f4f4;
+}
+
+#categories .banner .box-title h1 {
+  margin-right: 10px;
 }
 
 /* Contact */
