@@ -288,13 +288,11 @@ li {
 
 #team .container .card:nth-child(even) {
   background: #f4f4f4;
-}
-
-#team .container .card p:nth-child(even) {
   color: #000;
 }
 
 #team .container .card p:nth-child(odd) {
+  backgrounf: #000;
   color: #f4f4f4;
 }
 
