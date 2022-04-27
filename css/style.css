@@ -279,7 +279,8 @@ li {
 #team .container .card {
   background: transparent;
   margin: 1rem;
-  border: 1px solid #f4f4f4;
+  border: 1px solid #fff;
+  color: #fff;
   border-radius: 20px;
   text-align: center;
   padding: 1rem;  
