@@ -286,24 +286,14 @@ li {
   padding: 1rem;  
 }
 
-#team .container .card:nth-child(4) {
-  grid-column: 1 / 3; 
-}
-
-#team .container .card h3 {
-  color: #2c7c09;
-}
-
-#team .container .card p {
-  text-align: center;
-  font-size: 0.7rem;
-  font-style: italic;
-  line-height: 1.6rem;
-}
-
-#team .container .card .card-white {
+#team .container .card-white {
   background: #fff;
+  margin: 1rem;
+  border: 1px solid #000;
   color: #000;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1rem;  
 }
 
 #team .container .card .img-white {
@@ -323,6 +313,22 @@ li {
   border: 1px solid #000;
   border-radius: 50%;
   }
+
+
+#team .container .card:nth-child(4) {
+  grid-column: 1 / 3; 
+}
+
+#team .container .card h3 {
+  color: #2c7c09;
+}
+
+#team .container .card p {
+  text-align: center;
+  font-size: 0.7rem;
+  font-style: italic;
+  line-height: 1.6rem;
+}
 
 /* Footer */
 #footer {
