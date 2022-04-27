@@ -290,16 +290,8 @@ li {
  color: #000;
 }
 
-#team .container .card card-img:nth-child(1) {
-border: 1px solid #000;
-}
-
 #team .container .card:nth-child(2) {
  color: #fff;  
-}
-
-#team .container .card card-img:nth-child(2) {
-border: 1px solid #fff;
 }
 
 #team .container .card:nth-child(3) {
@@ -311,7 +303,7 @@ border: 1px solid #fff;
  grid-column: 1 / 3; 
 }
 
-#team .container .card :nth-child(5) {
+#team .container .card:nth-child(5) {
  background: #fff;
  color: #000;
 }
