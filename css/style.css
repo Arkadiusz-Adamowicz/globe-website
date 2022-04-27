@@ -291,6 +291,11 @@ li {
   color: #fff;
 }
 
+#team .container .card:nth-child(odd) {
+  background: #fff;
+  color: #000;
+}
+
 #team .container .card img:nth-child(even) {
   border: 1px solid #fff;
 }
