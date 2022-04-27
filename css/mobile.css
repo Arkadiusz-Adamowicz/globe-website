@@ -118,6 +118,6 @@
   display: none;
 }
 
-#footer p {
-    font-size: 0.6rem;
+#footer .container p {
+    font-size: 0.5rem;
 }
