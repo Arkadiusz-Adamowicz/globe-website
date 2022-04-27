@@ -1,6 +1,6 @@
 /* Navbar */
 #navbar {
-  height: 80px;  
+  height: 90px;  
 }
 
 #navbar .container {
@@ -14,7 +14,7 @@
 }
 
 #navbar h1 {
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0;
 }
 
 /* Showcase */
@@ -87,29 +87,37 @@
   height: 100%;
 }
 
-
-
 #team .container .card:nth-child(5) {
- display: none;
+  display: none;
 }
 
 #team .container .card:nth-child(4) {
   display: none;
- }
+}
+
 /* Contact */
+#contact {
+  height: 80%;
+}
+
+#contact .container {
+  display: flex;
+  padding: 3rem 0;
+}
+
 #contact .contact-form {
-flex: 1;
-padding: 0 20px;
+  flex: 1;
+  padding: 0 20px;
 }
 
 #contact .contact-form p {
-text-align: left;
+  text-align: left;
 }
 
 #contact .contact-img {
-display: none;
+  display: none;
 }
 
-#footer p {
-  font-size: 0.8rem;
+#footer .container p {
+    font-size: 0.5rem;
 }
