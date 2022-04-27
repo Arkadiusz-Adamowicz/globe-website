@@ -301,6 +301,11 @@ li {
   line-height: 1.6rem;
 }
 
+#team .container .card .card-white {
+  background: #fff;
+  color: #000;
+}
+
 #team .container .card .img-white {
   margin-top: 20px;
   margin-right: 10px;
