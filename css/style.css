@@ -309,10 +309,6 @@ li {
   grid-row: 1 / 4;
 }
 
-#team .container .card img:nth-child(3) {
-  border: 1px solid #000;
-}
-
 #team .container .card h3 {
   color: #2c7c09;
 }
@@ -330,10 +326,26 @@ li {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 1px solid #fff;
+/*   border: 1px solid #fff; */
+}
+
+#team .container .card img :nth-child(1) {
+  border: 1px solid #000;
 }
 
 #team .container .card img :nth-child(2) {
+  border: 1px solid #000;
+}
+
+#team .container .card img :nth-child(3) {
+  border: 1px solid #000;
+}
+
+#team .container .card img :nth-child(4) {
+  border: 1px solid #000;
+}
+
+#team .container .card img :nth-child(5) {
   border: 1px solid #000;
 }
 
