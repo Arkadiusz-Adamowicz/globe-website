@@ -38,11 +38,11 @@ body {
 }
 
 .green-shadow {
-  text-shadow: 1px 1px 5px #2c7c09, -1px -1px 5px #2c7c09;
+  text-shadow: 0px 0px 5px #2c7c09, -0px -0px 5px #2c7c09;
 }
 
 .white-shadow {
-  text-shadow: 1px 1px 5px #f4f4f4, -1px -1px 5px #f4f4f4;
+  text-shadow: 0px 0px 5px #f4f4f4, -0px -0px 5px #f4f4f4;
 }
 
 .m-heading {
