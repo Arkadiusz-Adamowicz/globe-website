@@ -286,11 +286,6 @@ li {
   padding: 1rem;  
 }
 
-#team .container .card:nth-child(even) {
-  background: #f4f4f4;
-  color: #000;
-}
-
 #team .container .card:nth-child(5) {
   color: #f4f4f4;
   grid-column: 2 / 4;
@@ -303,8 +298,8 @@ li {
 }
 
 #team .container .card:nth-child(4) {
-  grid-column: 2 / 4;
   color: #f4f4f4;
+  grid-column: 2 / 4;
 }
 
 #team .container .card h3 {
