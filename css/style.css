@@ -209,12 +209,12 @@ li {
 /* Contact */
 #contact {
   background: #000;
-  height: 800px;
+  height: 600px;
 }
 
 #contact .container {
   display: flex;
-  padding-bottom: 50px;
+  padding: 2rem;
 }
 
 #contact .contact-form {
