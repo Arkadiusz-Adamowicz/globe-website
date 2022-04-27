@@ -251,6 +251,7 @@ li {
 #contact .contact-img {
   flex: 1;
   background: #2c7c09 url("../img/contact.jpg") no-repeat center center/cover;
+  opacity: 0.9;
  }
 
 .btn {
