@@ -155,7 +155,7 @@ li {
 }
 
 #categories .container {
-  display: block;  
+  display: flex;  
 }
 
 #categories .container .category {
