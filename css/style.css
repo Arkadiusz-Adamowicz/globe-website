@@ -330,11 +330,11 @@ li {
 }
 
 #team .container .card img:nth-child(1) {
-  border: 1px solid #000;
+  border: 1px solid #fff;
 }
 
 #team .container .card img:nth-child(2) {
-  border: 1px solid #000;
+  border: 1px solid #fff;
 }
 
 #team .container .card img:nth-child(3) {
@@ -342,7 +342,7 @@ li {
 }
 
 #team .container .card img:nth-child(4) {
-  border: 1px solid #000;
+  border: 1px solid #fff;
 }
 
 #team .container .card img:nth-child(5) {
