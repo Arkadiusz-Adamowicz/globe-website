@@ -286,7 +286,7 @@ li {
   padding: 1rem;  
 }
 
-team .container .card:nth-child(1) {
+#team .container .card:nth-child(1) {
   background: #f4f4f4;
   color: #000;
 }
@@ -296,7 +296,7 @@ team .container .card:nth-child(1) {
   grid-row: 2 / 4;
 }
 
-team .container .card:nth-child(3) {
+#team .container .card:nth-child(3) {
   background: #f4f4f4;
   color: #000;
 }
