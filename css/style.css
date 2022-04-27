@@ -297,7 +297,7 @@ li {
 }
 
 #team .container .card img:nth-child(even) {
-  border: 1px solid #fff;
+  border: 1px solid #000;
 }
 
 #team .container .card:nth-child(2) {
