@@ -286,7 +286,8 @@ li {
 }
 
 #team .container .card:nth-child(1) {
- color: #fff;
+ background: #fff;
+ color: #000;
 }
 
 #team .container .card:nth-child(2) {
