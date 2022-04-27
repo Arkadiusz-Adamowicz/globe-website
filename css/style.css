@@ -333,6 +333,10 @@ li {
   border: 1px solid #fff;
 }
 
+#team .container .card img :nth-child(even) {
+  border: 1px solid #000;
+}
+
 /* Footer */
 #footer {
   background:#2c7c09;
