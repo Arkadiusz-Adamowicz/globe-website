@@ -286,16 +286,6 @@ li {
   padding: 1rem;  
 }
 
-#team .container .card:nth-child(odd) {
-  background: #000;
-  color: #fff;
-}
-
-#team .container .card:nth-child(even) {
-  background: #fff;
-  color: #000;
-}
-
 #team .container .card:nth-child(2) {
   grid-row: 2 / 4;
 }
@@ -326,12 +316,7 @@ li {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 1px solid #fff;
-}
-
-#team .container .card img:nth-child(odd) {
-  border: 1px solid #000;
-}
+  }
 
 .white-border {
   border: 1px solid #000;
