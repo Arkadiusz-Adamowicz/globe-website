@@ -36,7 +36,7 @@ body {
 .text-center {
   text-align: center;
 }
-
+x§
 .green-shadow {
   text-shadow: 0px 0px 5px #2c7c09, -0px -0px 5px #2c7c09;
 }
@@ -89,7 +89,7 @@ li {
 
 /* Navbar */
 #navbar {
-  background: #2c7c09;  
+  background: #2c7c09; 
 }
 
 #navbar .container {
@@ -109,16 +109,15 @@ li {
 }
 
 #navbar ul li a {
-  color: #f4f4f4;
-  padding: 0.5rem;
-  margin: 0 0.5rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
   font-size: 1.1rem;  
 }
 
 #navbar ul li a:hover {
-  background: #000;
-  border-radius: 5px;
   cursor: pointer;
+  background: #000;
 }
 
 /* Showcase */
@@ -136,7 +135,7 @@ li {
   align-items: center;
   height: 100%;  
   position: absolute;
-  top: 45px;
+  top: 50px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -166,15 +165,20 @@ li {
   height: 220px;
   margin: 0.5rem;
   border-radius: 20px;
-  justify-content: space-between;
+  /* border: 1px solid #fff; */
+  justify-content: space-around;
   transition: all .2s ease-in-out;
   /* transition: transform 0.2s ease-in; */
+}
+
+#categories .container .category h2 {
+margin-top: 20px;
 }
 
 #categories .container .category p {
   text-align: left;
   padding: 1rem;
-  margin-top: 10px;
+  margin-top: 5px;
   line-height: 1.7;                                                                                                                                                                                                      
 }
 
@@ -189,6 +193,7 @@ li {
   border: 2px solid #2c7c09;
   border-radius: 20px;
   height: 100vh;
+  width: 75vw;
   margin-top: 40px;
   margin-bottom: 10px;
 }
@@ -254,6 +259,7 @@ li {
 .btn {
   background: #2c7c09;
   color: #f4f4f4;
+  border: 2px solid white;
   border-radius: 5px;
   margin-top: 1rem;
   cursor: pointer;
@@ -270,6 +276,7 @@ li {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto; 
+  justify-content: space-between;
   padding: 1rem 0;
 }
 
@@ -293,6 +300,20 @@ li {
   padding: 1rem;  
 }
 
+#team .container .card-green {
+  background: #2c7c09;
+  margin: 1rem;
+  border: 1px solid #000;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1rem;  
+}
+
+#team .container .card-green .h3 {
+  color: #000;
+}
+
 #team .container .card .img-white {
   margin-top: 20px;
   margin-right: 10px;
@@ -308,6 +329,15 @@ li {
   width: 70px;
   height: 70px;
   border: 1px solid #000;
+  border-radius: 50%;
+}
+
+#team .container .card .img-green {
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #2c7c09;
   border-radius: 50%;
 }
 
@@ -328,7 +358,7 @@ li {
 
 /* Footer */
 #footer {
-  background:#2c7c09;
+  background:#2c7c09;  
   padding: 0.5rem 0;
 }
 
