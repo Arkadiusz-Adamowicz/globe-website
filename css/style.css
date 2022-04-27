@@ -276,11 +276,22 @@ li {
   padding: 1rem 0;
 }
 
-#team .container .card {
+#team .container .card-black {
   background: transparent;
   margin: 1rem;
   border: 1px solid #fff;
   color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1rem;  
+}
+
+
+#team .container .card-white {
+  background: #fff;
+  margin: 1rem;
+  border: 1px solid #fff;
+  color: #000;
   border-radius: 20px;
   text-align: center;
   padding: 1rem;  
