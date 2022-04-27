@@ -235,14 +235,14 @@ li {
 }
 
 #contact .contact-form input {
-  width: 80%;
+  width: 100%;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
 }
 
 #contact .contact-form textarea {
-  width: 80%;
+  width: 100%;
   border: none;
   border-radius: 5px;
   padding: 1.5rem;
