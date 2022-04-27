@@ -333,7 +333,7 @@ li {
   border: 1px solid #fff;
 }
 
-#team .container .card img :nth-child(even) {
+#team .container .card img :nth-child(2) {
   border: 1px solid #000;
 }
 
