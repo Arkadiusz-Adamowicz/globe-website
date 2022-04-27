@@ -151,11 +151,11 @@ li {
 /* Categories */
 #categories {
   background: #000;
-  height: 700px;
+  height: 1000px;
 }
 
 #categories .container {
-  display: flex;  
+  display: block;  
 }
 
 #categories .container .category {
@@ -185,7 +185,7 @@ li {
   background: transparent;
   padding: 1rem 1rem;
   margin: auto;
-  height: 100%;
+  height: 120%;
 }
   
 #categories .banner .box {
