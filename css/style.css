@@ -286,9 +286,9 @@ li {
   padding: 1rem;  
 }
 
-#team .container .card:nth-child(odd) {
+#team .container .card:nth-child(even) {
   background: #f4f4f4;
-  color: #f4f4f4;
+  color: #000;
 }
 
 #team .container .card:nth-child(5) {
