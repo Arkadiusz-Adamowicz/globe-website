@@ -97,6 +97,10 @@
   display: none;
  }
 /* Contact */
+#contact {
+  height: 100vh;
+}
+
 #contact .contact-form {
 flex: 1;
 padding: 0 20px;
