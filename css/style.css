@@ -319,11 +319,11 @@ li {
   grid-column: 1 / 3; 
 }
 
-#team .container h3 {
+#team .container .card h3 {
   color: #2c7c09;
 }
 
-#team .container p {
+#team .container .card p {
   text-align: center;
   font-size: 0.7rem;
   font-style: italic;
