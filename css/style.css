@@ -298,6 +298,10 @@ border: 1px solid #000;
  color: #fff;  
 }
 
+#team .container .card img:nth-child(2) {
+border: 1px solid #fff;
+}
+
 #team .container .card:nth-child(3) {
  color: #fff;
 }
