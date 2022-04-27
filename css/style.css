@@ -276,7 +276,7 @@ li {
   padding: 1rem 0;
 }
 
-#team .container .card .card-black {
+#team .container .card {
   background: transparent;
   margin: 1rem;
   border: 1px solid #fff;
@@ -285,18 +285,6 @@ li {
   text-align: center;
   padding: 1rem;  
 }
-
-
-#team .container .card .card-white {
-  background: #fff;
-  margin: 1rem;
-  border: 1px solid #fff;
-  color: #000;
-  border-radius: 20px;
-  text-align: center;
-  padding: 1rem;  
-}
-
 
 #team .container .card:nth-child(4) {
   grid-column: 1 / 3; 
