@@ -287,12 +287,11 @@ li {
 }
 
 #team .container .card:nth-child(1) {
-  color: #fff;
+ color: #fff;
 }
 
 #team .container .card:nth-child(2) {
-  grid-row: 2 / 4;
-  color: #fff;
+ color: #fff;
   
 }
 
@@ -301,14 +300,13 @@ li {
 }
 
 #team .container .card:nth-child(4) {
-  grid-column: 2 / 4
-  color: #fff;
+ color: #fff;
+ 
 }
 
 #team .container .card:nth-child(5) {
-  grid-column: 2 / 4;
-  grid-row: 1 / 4;
-  color: #fff;
+ color: #fff;
+  
 }
 
 #team .container .card h3 {
