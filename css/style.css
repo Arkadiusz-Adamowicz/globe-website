@@ -286,7 +286,7 @@ li {
   padding: 1rem;  
 }
 
-#team .container .card:nth(even) {
+#team .container .card:nth-child(odd) {
   background: #f4f4f4;
   color: #f4f4f4;
 }
