@@ -297,6 +297,7 @@ li {
 }
  */
 #team .container .card:nth-child(5) {
+  color: #f4f4f4;
   grid-column: 2 / 4;
   grid-row: 1 / 4;
 }
