@@ -36,11 +36,15 @@ body {
 }
 
 .green-shadow {
-  text-shadow: 0px 0px 5px #2c7c09, -0px -0px 5px #2c7c09;
+  text-shadow: 1.5px 1.5px 0px #2c7c09, -1.5px -1.5px 0px #2c7c09;
 }
 
 .white-shadow {
-  text-shadow: 0px 0px 5px #fff, -0px -0px 5px #fff;
+  text-shadow: 2px 2px 2px #fff, -2px -2px 2px #fff;
+}
+
+.no-shadow {
+  text-shadow: none;
 }
 
 .m-heading {
@@ -120,7 +124,7 @@ li {
 
 /* Showcase */
 #showcase {
-  background: #2c7c09 url("../img/globe.jpg") no-repeat center center/cover;
+  background: #2c7c09 url("../img/globe2.jpg") no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -133,21 +137,24 @@ li {
   align-items: center;
   height: 100%;  
   position: absolute;
-  top: 50px;
+  top: 40px;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0);
 }
 
 #showcase .showcase-content h1 {
+  /* border-top: 1px solid #fff; */
+  border-bottom: 1px solid #fff;
   margin-top: -70px;
+  padding-bottom: 1rem;
 }
 
 #showcase .showcase-content p {
   font-size: 1rem;
   max-width: 1100px;
-  line-height: 1.6;
+  line-height: 2;
 }
 
 /* Categories */
@@ -189,7 +196,7 @@ margin-top: 30px;
 
 /* Banner: */
 #categories .banner {
-  background: url("../img/team.jpg") no-repeat center center/cover;
+  background: url("../img/globe.jpg") no-repeat center center/cover;
   border-radius: 20px;
   height: 50vh;
   width: 75vw;
@@ -208,11 +215,14 @@ margin-top: 30px;
 }
 
 #categories .banner .box h2 {
+  border-bottom: 21x solid #fff;
   color: #fff;
+  padding-bottom: 0.5rem;
   font-size: 2rem;
 }
 
 #categories .banner .box p {
+  padding-top: 0.5rem;
   display: flex;
   color: #fff;
   font-style: italic;
