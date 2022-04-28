@@ -66,11 +66,6 @@ body {
   background: #2c7c09;
 }
 
-.bb {
-  border-bottom: 1px solid #fff;
-  padding-bottom: 1rem;
-}
-
 .my-1 {
   margin: 0.5rem 0;
 }
@@ -108,6 +103,7 @@ li {
   font-size: 2rem;
   color: #000;
   animation: slideFromTop 1s ease-in;
+  cursor: pointer;
 }
 
 #navbar ul li a {
@@ -172,9 +168,9 @@ li {
   background: #2c7c09;
   width: 450px;
   height: 220px;
-  margin: 0.5rem;
+  margin: 1rem;
   border-radius: 20px;
-  justify-content: space-around;  
+  cursor:default;
 }
 
 #categories .container .category h2 {
@@ -186,12 +182,11 @@ margin-top: 30px;
   text-align: center;
   padding: 1rem;
   margin-top: 5px;
-  line-height: 1.7;                                                                                                                                                                                                      
+  line-height: 1.8;                                                                                                                                                                                                      
 }
 
-.category h2:hover {
-  transform: translateY(-10px); 
-  /* transform: scale(1.1); */
+.category h2:hover { 
+  transform: scale(1.1);
 }
 
 /* Banner: */
@@ -215,7 +210,7 @@ margin-top: 30px;
 }
 
 #categories .banner .box h2 {
-  border-bottom: 21x solid #fff;
+  border-bottom: 1px solid #fff;
   color: #fff;
   padding-bottom: 0.5rem;
   font-size: 2rem;
