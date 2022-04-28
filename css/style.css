@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,9 +11,8 @@
   }
 
 body {
-  font-family: 'Roboto', sans-serif;  
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.4;   
+  font-family: 'Quicksand', sans-serif;    
+  line-height: 1.3;   
 }
 
 /* Utilities */
@@ -26,7 +24,7 @@ body {
 }
 
 .text-primary {
-  color: #f4f4f4;
+  color: #fff;
 }
 
 .text-secondary {
@@ -42,22 +40,22 @@ body {
 }
 
 .white-shadow {
-  text-shadow: 0px 0px 5px #f4f4f4, -0px -0px 5px #f4f4f4;
+  text-shadow: 0px 0px 5px #fff, -0px -0px 5px #fff;
 }
 
 .m-heading {
   font-size: 2rem;
-  color: #f4f4f4;
+  color: #fff;
 }
 
 .l-heading {
-  font-size: 5rem;  
-  color: #f4f4f4;
+  font-size: 6rem;  
+  color: #fff;
 }
 
 .lead {
   font-size: 1rem;
-  color: #f4f4f4;
+  color: #fff;
 }
 
 .bg-primary {
@@ -65,8 +63,8 @@ body {
 }
 
 .bb {
-  border-bottom: 1px solid #f4f4f4;
-  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 1rem;
 }
 
 .my-1 {
@@ -75,7 +73,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #f4f4f4;
+  color: #fff;
 }
 
 li {
@@ -124,7 +122,7 @@ li {
 #showcase {
   background: #2c7c09 url("../img/globe.jpg") no-repeat center center/cover;
   height: 100vh;
-  color: #f4f4f4;
+  color: #fff;
 }
 
 #showcase .showcase-content {
@@ -139,7 +137,11 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.2);
+}
+
+#showcase .showcase-content h1 {
+  margin-top: -100px;
 }
 
 #showcase .showcase-content p {
@@ -165,24 +167,22 @@ li {
   height: 220px;
   margin: 0.5rem;
   border-radius: 20px;
-  /* border: 1px solid #fff; */
-  justify-content: space-around;
-  transition: all .2s ease-in-out;
-  /* transition: transform 0.2s ease-in; */
+  justify-content: space-around;  
 }
 
 #categories .container .category h2 {
+transition: all 0.2s ease-in-out;
 margin-top: 30px;
 }
 
 #categories .container .category p {
-  text-align: left;
+  text-align: center;
   padding: 1rem;
   margin-top: 5px;
   line-height: 1.7;                                                                                                                                                                                                      
 }
 
-.category:hover {
+.category h2:hover {
   transform: translateY(-10px); 
   /* transform: scale(1.1); */
 }
@@ -190,9 +190,8 @@ margin-top: 30px;
 /* Banner: */
 #categories .banner {
   background: url("../img/team.jpg") no-repeat center center/cover;
-  border: 2px solid #2c7c09;
   border-radius: 20px;
-  height: 60vh;
+  height: 50vh;
   width: 75vw;
   margin-top: 30px;
   margin-bottom: -10px;
@@ -205,7 +204,19 @@ margin-top: 30px;
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 0 2rem;
+  padding: 0 2rem;  
+}
+
+#categories .banner .box h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+#categories .banner .box p {
+  display: flex;
+  color: #fff;
+  font-style: italic;
+  font-size: 1rem;
 }
 
 /* Contact */
@@ -227,12 +238,12 @@ margin-top: 30px;
 
 #contact .contact-form p {
   margin: 0 1rem;
-  color: #f4f4f4;  
+  color: #fff;  
 }
 
 #contact .contact-form label {
   display: block;
-  color: #f4f4f4;
+  color: #fff;
   padding: 0.5rem 0;
 }
 
@@ -258,7 +269,7 @@ margin-top: 30px;
 
 .btn {
   background: #2c7c09;
-  color: #f4f4f4;
+  color: #fff;
   border: 2px solid white;
   border-radius: 5px;
   margin-top: 1rem;
@@ -281,9 +292,8 @@ margin-top: 30px;
 }
 
 #team .container .card {
-  background: transparent;
+  background: #333;
   margin: 1rem;
-  border: 1px solid #fff;
   color: #fff;
   border-radius: 20px;
   text-align: center;
@@ -351,9 +361,9 @@ margin-top: 30px;
 
 #team .container .card p {
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-style: italic;
-  line-height: 1.6rem;
+  line-height: 1.5rem;
 }
 
 /* Footer */
