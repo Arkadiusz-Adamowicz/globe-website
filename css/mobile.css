@@ -19,12 +19,12 @@
 
 /* Showcase */
 #showcase {
-  height: 100vh;
+  height: 60vh;
 }
 
 #showcase .showcase-content {
  height: 100%;
- margin-top: 120px;
+ margin-top: 70px;
 }
 
 #showcase .showcase-content p {
