@@ -67,9 +67,9 @@
   color: #2c7c09;
 }
 
-.category:hover {
-  /* transform: translateY(10px); */
-  transform: none;
+.category h2:hover { 
+  transform: scale(1.2);
+  color: #000;
 }
 
 /* Team */
