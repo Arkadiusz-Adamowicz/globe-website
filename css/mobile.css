@@ -54,7 +54,6 @@
   background: #f4f4f4;
   width: 93%;
   height: 90%;
-  margin: em;
   border-radius: 20px;
   transition: none;
 }
@@ -68,7 +67,6 @@
 }
 
 .category h2:hover { 
-  transform: scale(1.2);
   color: #000;
 }
 
