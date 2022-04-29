@@ -189,8 +189,9 @@ margin-top: 30px;
 #categories .banner {
   background: url("../img/globe.jpg") no-repeat center center/cover;
   border-radius: 20px;
+  border: 1px solid #fff;
   height: 50vh;
-  width: 75vw;
+  width: 56vw;
   margin-top: 30px;
   margin-bottom: -10px;
 }
@@ -228,13 +229,13 @@ margin-top: 30px;
 
 #contact .container {
   display: flex;
-  padding: 0;
+  padding: 0 1rem;
 }
 
 #contact .contact-form {
  flex: 1;
  height: 100%; 
- padding: 20px 10px; 
+ padding: 0px 20px 0 0;
 }
 
 #contact .contact-form p {
