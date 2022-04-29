@@ -174,7 +174,7 @@ li {
   transition: all 0.2s ease;
 }
 
-#categories .container .category:hover {
+#categories .container .category h2:hover {
   color: #000;
 }
   
