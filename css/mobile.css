@@ -19,7 +19,7 @@
 
 /* Showcase */
 #showcase {
-  height: 60vh;
+  height: 100vh;
 }
 
 #showcase .showcase-content {
@@ -28,15 +28,15 @@
 }
 
 #showcase .showcase-content p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-top: 1rem;
   padding: 0 2rem;
 }
 
 #showcase .showcase-content h1 {
-  font-size: 2.8rem;
-  padding: 1rem 0; 
-  margin-top: -250px;
+  font-size: 2.5rem;
+  padding: 0.5 0rem; 
+  margin-top: -150px;
 }
 
 /* Categories */
@@ -54,7 +54,6 @@
   background: #f4f4f4;
   width: 93%;
   height: 90%;
-  margin: em;
   border-radius: 20px;
   transition: none;
 }
@@ -68,7 +67,6 @@
 }
 
 .category h2:hover { 
-  transform: scale(1.2);
   color: #000;
 }
 
