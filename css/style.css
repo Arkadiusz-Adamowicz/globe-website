@@ -185,12 +185,8 @@ margin-top: 30px;
   line-height: 1.8;                                                                                                                                                                                                      
 }
 
-.category:hover {
-  h2 { 
-  transform: scale(1.1);
-  color: #000;
-  text-shadow: 0 0 2px #fff;
-  }
+.category:hover {  
+  background: #194705;  
 }
 
 /* Banner: */
