@@ -206,19 +206,18 @@ margin-top: 30px;
 }
 
 #categories .banner .box h2 {
-  border-bottom: 1px solid #fff;
   color: #fff;
   padding-bottom: 0.5rem;
   font-size: 2rem;
 }
 
-#categories .banner .box p {
+/* #categories .banner .box p {
   padding-top: 0.5rem;
   display: flex;
   color: #fff;
   font-size: 0.8rem;
   font-weight: bold;
-}
+} */
 
 /* Contact */
 #contact {
