@@ -166,7 +166,7 @@ li {
 
 #categories .container .category {
   background: #2c7c09;
-  width: 480px;
+  width: 500px;
   height: 220px;
   margin: 0.8rem;
   border-radius: 20px;
@@ -187,6 +187,7 @@ margin-top: 30px;
 
 .category h2:hover { 
   transform: scale(1.1);
+  color: #0033cc;
 }
 
 /* Banner: */
