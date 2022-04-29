@@ -187,39 +187,19 @@ margin-top: 30px;
 
 /* Banner: */
 #categories .banner {
-  background: url("../img/globe.jpg") no-repeat center center/cover;
-  border-radius: 20px;
-  border: 1px solid #fff;
-  height: 50vh;
-  width: 56vw;
-  margin-top: 30px;
-  margin-bottom: -10px;
-}
-  
-#categories .banner .box {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  padding: 0 2rem;  
+  background: url("../img/globe.jpg") no-repeat center center/cover;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  height: 50vh;
+  width: 74%;
+  margin-top: 30px;
+  margin-bottom: -10px;
 }
-
-#categories .banner .box h2 {
-  color: #fff;
-  padding-bottom: 0.5rem;
-  font-style: italic;
-  font-size: 2rem;
-}
-
-/* #categories .banner .box p {
-  padding-top: 0.5rem;
-  display: flex;
-  color: #fff;
-  font-size: 0.8rem;
-  font-weight: bold;
-} */
 
 /* Contact */
 #contact {
@@ -235,7 +215,7 @@ margin-top: 30px;
 #contact .contact-form {
  flex: 1;
  height: 100%; 
- padding: 0px 20px 0 0;
+ padding: 0px 40px 0 0;
 }
 
 #contact .contact-form p {
