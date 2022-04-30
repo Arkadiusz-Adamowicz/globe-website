@@ -6,6 +6,7 @@
 #navbar .container {
   display: block;
   text-align: center;
+  animation: none;
 }
 
 #navbar ul {
@@ -56,16 +57,26 @@
   width: 93%;
   height: 90%;
   border-radius: 20px;
-  transition: background 1s ease-in;
+  transition: all 1s ease-in;
 }
+
+#team .container .card img {
+  transition: all 3s ease-in-out;
+  transform: rotate(360deg);
+}
+
+/* #team .container .card img:hover {
+  width: 100px;
+  height: 100px;
+} */
 
 /* Animations */
 #categories .container .category h2{
-  animation: header-h2 2s forwards ease-in;
+  animation: header-h2 1s forwards ease-in;
 }
 
 #categories .container .category p{
-  animation: text 3s forwards ease-in;
+  animation: text 2s forwards ease-in;
 }
 
 /* Keyframes */
@@ -88,7 +99,7 @@
       transform: translateX(0);
     }
   }
-
+  
 .category p {
   color: #2c7c09;
 }
