@@ -53,13 +53,25 @@
 }
 
 #categories .container .category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-radius: 20px;
-  padding: auto;
+  width: 500px;
+  height: 150px;
   margin: 0.5rem 1rem;
+  transition: all 0.5s ease-in;
 }
 
 #categories .container .category:hover {
-  transition: none;
+  height: 220px;
+}
+
+#categories .container .category h2 {
+  margin-top: 12px;
+}
+
+#categories .container .category p {
 
 }
 
@@ -92,7 +104,7 @@
 
 #contact .contact-form {
   flex: 1;
-  padding: 0 20px;
+  padding: 0px;
 }
 
 #contact .contact-form p {
@@ -105,4 +117,16 @@
 
 #footer .container p {
     font-size: 0.8rem;
+}
+
+/* Categories: Discovery */
+
+#showcase .container .discovery {
+  width: 100vw;
+  text-align: justify;
+  padding: 0 1rem;
+}
+
+#showcase .container .discovery h1 {
+font-size: 3rem;
 }
