@@ -25,6 +25,7 @@
 #showcase .showcase-content {
  height: 100%;
  margin-top: 70px;
+ transition: all 1s ease;
 }
 
 #showcase .showcase-content p {
@@ -55,8 +56,38 @@
   width: 93%;
   height: 90%;
   border-radius: 20px;
-  transition: none;
+  transition: background 1s ease-in;
 }
+
+/* Animations */
+#categories .container .category h2{
+  animation: header-h2 2s forwards ease-in;
+}
+
+#categories .container .category p{
+  animation: text 3s forwards ease-in;
+}
+
+/* Keyframes */
+  @keyframes header-h2 {
+    from {
+      transform: translateX(1200px);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes text {
+    from {
+      transform: translateX(-1200px);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
 
 .category p {
   color: #2c7c09;
