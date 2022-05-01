@@ -105,16 +105,22 @@ li {
   font-size: 2rem;
   color: #000;
   cursor: pointer;
+  
+}
+
+#navbar h1 i {
+  transition: all 0.2s ease-in;
 }
 
 #navbar h1 i:hover {
-  color: #000;
+  color: #000;  
 }
 
 #navbar ul li a {
   color: #fff;
   padding: 0.5rem 0.7rem;
-  font-size: 1.1rem;  
+  font-size: 1.1rem; 
+  transition: all 0.2s ease-in; 
 }
 
 #navbar ul li a:hover {

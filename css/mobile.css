@@ -48,8 +48,8 @@
 }
 
 #categories .container {
-  flex-wrap: wrap;
-  position: relative;  
+  flex-wrap: wrap; 
+  align-content: center; 
 }
 
 #categories .container .category {
@@ -61,6 +61,7 @@
   height: 150px;
   margin: 0.5rem 1rem;
   transition: all 0.5s ease-in;
+  
 }
 
 #categories .container .category:hover {
@@ -121,12 +122,22 @@
 
 /* Categories: Discovery */
 
-#showcase .container .discovery {
+#showcase .discovery {
+  height: 100vh;
   width: 100vw;
   text-align: justify;
-  padding: 0 2rem;
+  position: relative;
+  transition: all 2s ease-in;
 }
 
-#showcase .container .discovery h1 {
+#showcase .discovery h1 {
 font-size: 3rem;
+}
+
+#showcase .discovery p {
+  padding: 0 2rem;
+}  
+
+#showcase .discovery .discovery-img {
+  
 }
