@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,7 @@
   }
 
 body {
-  font-family: 'Lato', sans-serif;    
+  font-family: 'Poppins', sans-serif;    
   line-height: 1.5;   
 }
 
@@ -50,6 +50,11 @@ body {
 .m-heading {
   font-size: 2rem;
   color: #fff;
+}
+
+.h-heading {
+  font-size: 4rem;
+  color: fff;
 }
 
 .l-heading {
@@ -108,19 +113,19 @@ li {
   
 }
 
-#navbar h1 i {
+/* #navbar h1 i {
   transition: all 0.2s ease-in;
-}
+} */
 
-#navbar h1 i:hover {
+/* #navbar h1 i:hover {
   color: #000;  
-}
+} */
 
 #navbar ul li a {
   color: #fff;
-  padding: 0.5rem 0.7rem;
-  margin-left: 5px;;
-  font-size: 1.1rem; 
+  padding: 0.5rem;
+  margin: 5px;
+  font-weight: bold;
   transition: all 0.2s ease-in; 
 }
 
@@ -128,6 +133,7 @@ li {
   cursor: pointer;
   background: #000;
   border-radius: 5px;
+  /* color: #000; */
 }
 
 /* Showcase */
@@ -377,29 +383,48 @@ li {
 } 
 
 /* Discovery Page */
+body {
+  background: #000;
+}
+
 #discovery {
-  background: #000 url("../img/space.jpg") no-repeat center center/cover;
   color: #fff;
   min-height: 100%; /* or auto */
+  background: #000;
 }
 
 #discovery .discovery-content {
+  background: #000;
+  border: 1px solid #fff;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
+  margin: 2rem auto;
   text-align: justify;
   justify-content: center;
-  align-items: center;
-  margin: auto;
-  line-height: 2;
+  align-items: center;;                                                                                                                                                                                             
   min-height: 100%;
   max-width: 1100px;
+  line-height: 2;
 }
+  
 
 #discovery .discovery-img {
-  height: 100%;
+  height: 200px;
   width: 100%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
   text-align: center;
-  color: #fff;
-  background: #2c7c09;
-  margin-bottom: 2rem;
+  color: #fff;  
+  background: #2c7c09 url("../img/globe.jpg") no-repeat center center/cover;
+} 
+
+#discovery .discovery-content p {
+  padding: 1rem;
 }
+
+#discovery .discovery-content h1 {
+  transition: all 2s ease-in;
+}
+
+ 
