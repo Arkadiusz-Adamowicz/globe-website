@@ -127,17 +127,38 @@
   width: 100vw;
   text-align: justify;
   position: relative;
-  transition: all 2s ease-in;
 }
 
 #showcase .discovery h1 {
+padding: 2rem;
 font-size: 3rem;
 }
 
 #showcase .discovery p {
-  padding: 0 2rem;
+  padding: 0 2rem 2rem 2rem;
+  animation: discovery-text 3s forwards ease-in;
 }  
 
-#showcase .discovery .discovery-img {
-  
+#showcase .discovery-img {
+  animation: discovery-img 2s forwards ease-in;
+}
+
+@keyframes discovery-img {
+  from {
+    transform: translateX(-1200px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes discovery-text {
+  from {
+    transform: translateY(1200px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
 }
