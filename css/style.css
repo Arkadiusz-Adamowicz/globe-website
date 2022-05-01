@@ -198,7 +198,7 @@ li {
   text-align: center;
   padding: 1rem;
   margin-top: 5px;
-  line-height: 1.8;                                                                                                                                                                                                      
+  line-height: 1.8;              
 }
 
 /* Contact */
@@ -379,6 +379,7 @@ li {
 /* Discovery Page */
 #discovery {
   background: #000 url("../img/space.jpg") no-repeat center center/cover;
+  color: #fff;
   min-height: 100%; /* or auto */
 }
 

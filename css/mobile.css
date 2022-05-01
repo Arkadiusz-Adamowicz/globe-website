@@ -121,6 +121,10 @@
 }
 
 /* Discovery */
+#discovery .discovery-content {
+  transition: all 2s ease-in;
+}
+
 #discovery .discovery-content p {
   font-size: 0.8rem;
   padding-bottom: 1rem;
