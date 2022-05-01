@@ -392,9 +392,11 @@ li {
   justify-content: center;
   align-items: center;
   margin: auto;
+  padding: 2rem;
   line-height: 2;
   min-height: 100%;
   max-width: 1100px;
+  
 }
 
 #discovery .discovery-img {
