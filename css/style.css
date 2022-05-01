@@ -378,7 +378,8 @@ li {
 
 /* Discovery Page */
 #discovery {
-  background: #000 url("../img/space.jpg") no-repeat center center/cover;
+  background: #000;
+  border-radius: 20px;
   color: #fff;
   min-height: 100%; /* or auto */
 }
