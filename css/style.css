@@ -384,7 +384,7 @@ li {
 
 #discovery .discovery-content {
   background: #000;
-  box-shadow: 0 0 10px #fff;
+  border: 1px solid #fff;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
