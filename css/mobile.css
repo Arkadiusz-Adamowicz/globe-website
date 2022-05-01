@@ -72,10 +72,6 @@
   margin-top: 12px;
 }
 
-#categories .container .category p {
-
-}
-
 /* Team */
 #categories .banner {
   display: none;
@@ -120,41 +116,12 @@
     font-size: 0.8rem;
 }
 
-/* Categories: Discovery */
-#showcase .discovery {
-  height: max-content;
+/* Discovery */
+#discovery .discovery-content p {
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
 }
 
-#showcase .discovery h1 {
-padding: 1rem;
-font-size: 3rem;
-}
-
-#showcase .discovery p {
-  padding: 1rem;
-  animation: discovery-text 3s forwards ease-in;
-}  
-
-#showcase .discovery-img {
-  animation: discovery-img 2s forwards ease-in;
-}
-
-@keyframes discovery-img {
-  from {
-    transform: translateX(-1200px);
-  }
-
-  to {
-    transform: translateX(0);
-  }
-}
-
-@keyframes discovery-text {
-  from {
-    transform: translateY(1200px);
-  }
-
-  to {
-    transform: translateY(0);
-  }
+#discovery .discovery-content h1 {
+  font-size: 2.5rem;
 }
