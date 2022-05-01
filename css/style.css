@@ -377,8 +377,7 @@ li {
 
 /* Discovery Page */
 #discovery {
-  background: #2c7c09 url("../img/space.jpg") no-repeat center center/cover;
-  color: #000;
+  background: url("../img/space.jpg") no-repeat center center/cover;
   min-height: 100%;
 }
 
@@ -392,5 +391,5 @@ li {
   line-height: 2;
   min-height: 100%;
   max-width: 1100px;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
 }

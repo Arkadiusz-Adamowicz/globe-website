@@ -11,8 +11,12 @@
   padding-bottom: 5px;
 }
 
+#navbar ul li a {
+  padding: 0.3rem 1rem;
+}
+
 #navbar ul li a:hover {
-  padding-bottom: 1rem;
+  padding: 0.3rem 1rem;
 }
 
 #navbar h1 {
@@ -125,3 +129,5 @@
 #discovery .discovery-content h1 {
   font-size: 2.5rem;
 }
+
+
