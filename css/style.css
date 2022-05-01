@@ -379,6 +379,7 @@ li {
 /* Discovery Page */
 #discovery {
   background: #000;
+  box-shadow: 0 0 0 5px #fff;
   border-radius: 20px;
   color: #fff;
   min-height: 100%; /* or auto */
