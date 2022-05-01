@@ -56,7 +56,8 @@
 
 #categories .container {
   flex-wrap: wrap; 
-  align-content: center; 
+  align-content: center;
+  padding: 1rem;
 }
 
 #categories .container .category {
