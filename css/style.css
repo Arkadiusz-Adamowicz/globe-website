@@ -62,6 +62,11 @@ body {
   color: #fff;
 }
 
+.xl-heading {
+  font-size: 8rem;
+  color: #fff;
+}
+
 .lead {
   font-size: 1rem;
   color: #fff;
@@ -89,6 +94,24 @@ li {
   padding: 0.5rem 0;
 }
 
+/* Borders */
+
+.br-tl {
+  border-top-left-radius: 20px;
+}
+
+.br-tr {
+  border-top-right-radius: 20px;
+}
+
+.br-bl {
+  border-bottom-left-radius: 20px;
+}
+
+.br-br {
+  border-bottom-right-radius: 20px;
+}
+
 /* Navbar */
 #navbar {
   background: #2c7c09; 
@@ -113,19 +136,11 @@ li {
   
 }
 
-/* #navbar h1 i {
-  transition: all 0.2s ease-in;
-} */
-
-/* #navbar h1 i:hover {
-  color: #000;  
-} */
-
 #navbar ul li a {
   color: #fff;
-  padding: 0.2em;
+  padding: 0.4em;
   margin: 5px;
-  font-weight: bold;
+  /* font-weight: bold; */
   transition: all 0.2s ease-in; 
 }
 
@@ -133,7 +148,6 @@ li {
   cursor: pointer;
   background: #000;
   border-radius: 5px;
-  /* color: #000; */
 }
 
 /* Showcase */
@@ -177,14 +191,15 @@ li {
 
 #categories .container {
   display: flex;  
+  width: 75%;
 }
 
 #categories .container .category {
   background: #2c7c09;
-  width: 500px;
+  border-radius: 20px; 
+  width: 550px;
   height: 240px;
-  margin: 0.6rem;;
-  border-radius: 20px;
+  margin: 0.5rem;
   cursor: default;
   transition: all 0.5s ease-in;
 }
@@ -204,7 +219,7 @@ li {
   text-align: center;
   padding:  1rem;
   margin-top: 5px;
-  line-height: 1.8;              
+  line-height: 1.5;              
 }
 
 /* Contact */
@@ -267,6 +282,10 @@ li {
   font-size: 1rem;
 }
 
+.btn:hover {
+  background: #38a00b;
+}
+
 /* Team */
 #team {
   background-color: #000;
@@ -295,7 +314,6 @@ li {
   margin: 1rem;
   border: 1px solid #000;
   color: #000;
-  border-radius: 20px;
   text-align: center;
   padding: 1rem;  
 }
@@ -305,7 +323,6 @@ li {
   margin: 1rem;
   border: 1px solid #000;
   color: #fff;
-  border-radius: 20px;
   text-align: center;
   padding: 1rem;  
 }
@@ -394,9 +411,9 @@ body {
 }
 
 #discovery .discovery-content {
-  background: #000;
-  border: 1px solid #fff;
   border-radius: 20px;
+  /* box-shadow: 0 0 0px 1px #fff; */
+  /* border: 1px solid #fff; */
   display: flex;
   flex-direction: column;
   text-align: justify;
@@ -406,21 +423,29 @@ body {
   line-height: 2;
   min-height: 100%;
   max-width: 1100px;
+  transition: all 1s ease-in;
 }
-  
 
 #discovery .discovery-img {
-  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   width: 100%;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
   text-align: center;
-  color: #fff;  
+  color: #fff;
+  /* border: 1px solid #fff; */
   background: #2c7c09 url("../img/lighter.jpg") no-repeat center center/cover;
 } 
 
 #discovery .discovery-content p {
   padding: 1rem;
+}
+
+#discovery .discovery-content h1 {
+
 }
 
  
