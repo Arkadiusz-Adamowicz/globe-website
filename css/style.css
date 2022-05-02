@@ -191,7 +191,7 @@ li {
 
 #categories .container {
   display: flex;  
-  width: 75%;
+  width: 100%;
 }
 
 #categories .container .category {
