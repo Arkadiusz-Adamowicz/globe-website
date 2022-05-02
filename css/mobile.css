@@ -53,8 +53,7 @@
 /* Categories */
 #categories {
   background: #000;  
-  /* height: 100%;    */
-  
+  /* height: 100%;    */  
 }
 
 #categories .container {
@@ -132,24 +131,7 @@ padding: 0 0.5rem;
   font-size: 0.8rem;
 }
 
-/* Discovery */
-#discovery .discovery-content p {
-  font-size: 0.8rem;
-  padding: 1rem;
-}
 
-#discovery .discovery-content h1 {
-  font-size: 2.5rem; 
-}
-
-#discovery .discovery-img {
-  display: block;
-  padding: 10rem 0;
-  background: #2c7c09 url("../img/lighter.jpg") no-repeat center center/cover; 
-  /* background-position-x: -400px;  */
-  height: 85vh;
-  top: 0;
-}
 
 
 

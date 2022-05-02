@@ -212,7 +212,6 @@ li {
 #categories .container .category h2 {
   margin-top: 30px;
   padding-bottom: 0.5rem;
-  transition: all 1s ease-in;
 }
 
 #categories .container .category p {
@@ -399,49 +398,3 @@ li {
   }
 } 
 
-/* Discovery , Learning  */
-body {
-  background: #000;
-}
-
-#discovery {
-  color: #fff;
-  min-height: 100%; /* or auto */
-  background: #000;
-}
-
-#discovery .discovery-content {
-  border-radius: 20px;
-  /* box-shadow: 0 0 0px 1px #fff; */
-  /* border: 1px solid #fff; */
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem auto;
-  line-height: 2;
-  min-height: 100%;
-  max-width: 1100px;
-  transition: all 1s ease-in;
-}
-
-#discovery .discovery-img {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-  /* border: 1px solid #fff; */
-  background: #2c7c09 url("../img/lighter.jpg") no-repeat center center/cover;
-} 
-
-#discovery .discovery-content p {
-  padding: 1rem;
-}
-
- 
